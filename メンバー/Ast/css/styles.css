@@ -79,73 +79,43 @@ header h1 {
   opacity: 0.5;
 }
 /* スタジオ */
-.sd {
+.st {
   list-style: none;
   padding: 0;
   margin: 0;  
 }
-.sd li {
+.st li {
   padding: 8px;
 }
-.sd li a {
+.st li a {
   color:rgb(247, 244, 244);
   text-decoration: none;
   cursor: pointer;
 }
-.sd li a:hover {
+.st li a:hover {
   opacity: 0.5;
 }
-/* 大阪 */
-.osa {
+/* 倉庫 */
+.re {
   list-style: none;
   padding: 0;
   margin: 0;  
 }
-.osa li {
+.re li {
   padding: 8px;
 }
-.osa li a {
+.re li a {
   color:rgb(247, 244, 244);
   text-decoration: none;
   cursor: pointer;
 }
-.osa li a:hover {
+.re li a:hover {
   opacity: 0.5;
 }
-/* 福岡 */
-.fuk {
-  list-style: none;
-  padding: 0;
-  margin: 0;  
-}
-.fuk li {
-  padding: 8px;
-}
-.fuk li a {
-  color:rgb(247, 244, 244);
-  text-decoration: none;
-  cursor: pointer;
-}
-.fuk li a:hover {
-  opacity: 0.5;
-}
-/* その他メニュー */
-.otr {
-  list-style: none;
-  padding: 0;
-  margin: 0;  
-}
-.otr li {
-  padding: 8px;
-}
-.otr li a {
-  color:rgb(247, 244, 244);
-  text-decoration: none;
-  cursor: pointer;
-}
-.otr li a:hover {
-  opacity: 0.5;
-}
+    
+
+
+
 
 h2 {
   text-align: center;
