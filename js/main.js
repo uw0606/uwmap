@@ -27,11 +27,13 @@
 }
 
 
+
 // サイトメニュー
 {
   const instrument = document.getElementById('instrument');
   const clinic = document.getElementById('clinic');
   const map = document.getElementById('map');
+  const camp = document.getElementById('camp');
     instrument.addEventListener('click', () => {
       window.location.href = "https://uw0606.github.io/uwtools/"
    });
@@ -40,6 +42,9 @@
    });
     map.addEventListener('click', () => {
       window.location.href = "https://uw0606.github.io/uwmap/"
+   });
+    camp.addEventListener('click', () => {
+      window.location.href = "https://uw0606.github.io/nobutocamp/"
    });
 }
 
@@ -65,5 +70,4 @@
   document.querySelectorAll('.animate').forEach(el => {
     observer.observe(el);
   });
-
 }
