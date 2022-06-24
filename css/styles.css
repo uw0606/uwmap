@@ -112,6 +112,23 @@ header h1 {
 .re li a:hover {
   opacity: 0.5;
 }
+/* その他 */
+.ot {
+  list-style: none;
+  padding: 0;
+  margin: 0;  
+}
+.ot li {
+  padding: 8px;
+}
+.ot li a {
+  color:rgb(247, 244, 244);
+  text-decoration: none;
+  cursor: pointer;
+}
+.ot li a:hover {
+  opacity: 0.5;
+}
 
 
 
